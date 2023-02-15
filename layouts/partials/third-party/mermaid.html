@@ -8,7 +8,8 @@
             useMaxWidth: false,
             htmlLabels: true
         },
-        theme: '{{ template "mermaid-theme" . }}'
+        theme: '{{ template "mermaid-theme" . }}',
+        sequence: { showSequenceNumbers: true }
     };
     mermaid.initialize(mermaidConfig);
 </script>
